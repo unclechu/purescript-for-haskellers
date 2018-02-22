@@ -22,6 +22,15 @@ PureScript is **strict** by default!
   (kinda like https://stackage.org for Haskell)
 - http://try.purescript.org (online REPL)
 
+### Chatting
+
+- #purescript on Freenode<br>
+  [Matrix](https://matrix.org/)
+  bridge: https://riot.im/app/#/room/#freenode_#purescript:matrix.org
+- https://gitter.im/purescript/purescript<br>
+  [Matrix](https://matrix.org/)
+  bridge: https://riot.im/app/#/room/#gitter_purescript=2Fpurescript:matrix.org
+
 ## From Haskell perspective
 
 1. **About `Prelude`**:
