@@ -1,7 +1,8 @@
 # PureScript For Haskellers
 
 Some info that supposed to help
-to understand PureScript from Haskell perspective.
+to understand [PureScript](http://www.purescript.org/)
+from [Haskell](https://www.haskell.org/) perspective.
 
 If you already know js it will be even simplier.
 
