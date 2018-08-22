@@ -59,15 +59,15 @@ PureScript is **strict** by default!
 
 4. **Basic operators equivalents** (those which differ):
 
-   | PureScript                      | Haskell                                            |
-   | ---                             | ---                                                |
-   | `(<<<)`                         | `(.)`                                              |
-   | `(>>>)`                         | `flip (.)` or `(.>)` from `flow` package           |
-   | `(#)`                           | `(Data.Function.&)` from `base` package            |
-   | `(<#>)`                         | `(Control.Lens.Operators.<&>)` from `lens` package |
-   | `(<>)` (`Semigroup` type class) | `(++)`                                             |
-   | `a *> b` (`Apply` type class)   | `a >> b`                                           |
-   | `b <* a` (`Apply` type class)   | `b << a`                                           |
+   | PureScript                      | Haskell                                  |
+   | ---                             | ---                                      |
+   | `(<<<)`                         | `(.)`                                    |
+   | `(>>>)`                         | `flip (.)` or `(.>)` from `flow` package |
+   | `(#)`                           | `(Data.Function.&)` from `base` package  |
+   | `(<#>)`                         | `(Data.Functor.<&>)` from `base` package |
+   | `(<>)` (`Semigroup` type class) | `(++)`                                   |
+   | `a *> b` (`Apply` type class)   | `a >> b`                                 |
+   | `b <* a` (`Apply` type class)   | `b << a`                                 |
 
 5. **Basic functions equivalents** (those which differ):
 
